@@ -1,5 +1,4 @@
-﻿
-#feel free to edit these variables as you prefer, e.g. change the password to something else
+﻿#feel free to edit these variables as you prefer, e.g. change the password to something else
 #Most of this script is highly customizable as per your needs
 $USER_PASSWORD = "Admin1"
 $USERS_NAMES_LIST = Get-Content .\listnames.txt
@@ -8,11 +7,13 @@ $USERS_NAMES_LIST = Get-Content .\listnames.txt
 #this stores the plain text password into an object
 $password = ConvertTo-SecureString $USER_PASSWORD -AsPlainText -Force
 #this creates the organizational unit called _USERS
-New-ADOrganizationalUnit -Name _USERS -ProtectedFromAccidentalDeletion $false
+New-ADOrganizationalUnit -Name _USERS
 
-#this is the main script, it's gonna store the first name of the user from the listnames.txt in the variable "first"
-#by splitting the first element (first name) with the second element (the surname), since they're separated by a space character
-#then the surname is store in the "last" variable
+<#
+This is the main script, it's gonna store the first name of the user from the listnames.txt in the variable "first",
+by splitting the first element (first name) with the second element (the surname), since they're separated by a space character,
+then the surname is store in the "last" variable.
+#>
 foreach ($n in $USERS_NAMES_LIST) {
     $first = $n.Split(" ")[0].ToLower()
     $last = $n.Split(" ")[1].ToLower()
@@ -34,3 +35,4 @@ foreach ($n in $USERS_NAMES_LIST) {
                -Path "ou=_USERS,$(([ADSI]`"").distinguishedName)" `
                -Enabled $true
 }
+Write-Host "All done!"
