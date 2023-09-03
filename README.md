@@ -13,7 +13,7 @@ The second script, called **xxxx**, will --
 
 <h2>Environments Used</h2>
 
-- <b>Windows 10/11, Windows Server 2022</b> (21H2)
+- <b>Windows 10/11, Windows Server 2022</b>
 
 <h2>Screenshots</h2>
 
