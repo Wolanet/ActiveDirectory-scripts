@@ -10,6 +10,8 @@ Here you will find two very simple **PowerShell utility scripts**, to be used in
 <br />
 
  *note*, in the .ps1 file (PowerShell code) there are a lot of comments explaining what the code does/how to modify it etc., feel free to ignore them or delete them.
+
+ *note2*, in the listnames.txt replace "Myname Mysurname" with your name and surname, if you want to add yourself as well to Active Directory, otherwise delete that first line.
 <br />
 <br />
 
