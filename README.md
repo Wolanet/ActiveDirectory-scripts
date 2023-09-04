@@ -24,7 +24,7 @@ This script will also get and display the name of the printers (if any) and let 
 
 <h2>Screenshots</h2>
 
-Enter the following command to being able to run the script (you can change it back after):  <br />
+Enter the following command to being able to run the Generate_Users script (you can change it back after):  <br />
 
 ![Sample image](images/PShellscript1.png)
 <br />
@@ -34,7 +34,7 @@ Use the cd command to go where the txt file is store: <br />
 ![Sample image](images/PShellscript2.png)
 <br />
 
-The script in function: <br />
+The Generate_Users script in function: <br />
 
 ![Sample image](images/PShellscript3.png)
 <br />
