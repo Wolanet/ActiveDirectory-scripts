@@ -1,6 +1,6 @@
 ﻿#feel free to edit these variables as you prefer, e.g. change the password to something else
 #Most of this script is highly customizable as per your needs
-$USER_PASSWORD = "Admin1"
+$USER_PASSWORD = "Password123"
 $USERS_NAMES_LIST = Get-Content .\listnames.txt
 #run the cd command to go where the listnames.txt file is stored before running the script, OR write the full path of the location where the txt file is stored after Get-Content
 
