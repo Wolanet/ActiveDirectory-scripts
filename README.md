@@ -1,5 +1,5 @@
-<h1>PowerShell scripts for AD enviroment</h1>
-Blog post for a more detailed walk-through >
+<h1>🧱 PowerShell scripts for AD enviroment</h1>
+Blog post for a more detailed walk-through >  (link to come)
 
 <h2>📙 Description</h2>
 
@@ -21,17 +21,32 @@ This script will also get and display the name of the printers (if any) and let 
 <h2>📗 Tested environments</h2>
 
 - <b>Windows 10/11, Windows Server 2022</b>
-<br />
 
 <h2>Screenshots</h2>
 
-<p align="center">
-Select the disk:  <br/>
-<img src="https://-------------" height="80%" width="80%" alt="PShell script"/>
+Enter the following command to being able to run the script (you can change it back after):  <br />
+
+![Sample image](images/PShellscript1.png)
+<br />
+
+Use the cd command to go where the txt file is store: <br />
+
+![Sample image](images/PShellscript2.png)
+<br />
+
+The script in function: <br />
+
+![Sample image](images/PShellscript3.png)
+<br />
+Keep in mind that what's being displayed is the username, which is a combination of the first latter of the first name and the last name, if you check the profile associated with those usernames in Active Directory you will also find the full first name and last name of each user.
+<br />
+
+Execution of the second script: <br />
+
+![Sample image](images/PShellscript4.png)
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://------------" height="80%" width="80%" alt="PShell script"/>
-</p>
-<br />
-<br />
+
+<!-- If you want to upload the image instead of using a relative path:  <img src="https://---------" height="80%" width="80%" alt="PShell script"/> 
+!-->
+
