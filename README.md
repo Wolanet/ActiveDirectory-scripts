@@ -39,7 +39,7 @@ The Generate_Users script in function: <br />
 
 ![Sample image](images/PShellscript3.png)
 <br />
-Keep in mind that what's being displayed is the username, which is a combination of the first latter of the first name and the last name, if you check the profile associated with those usernames in Active Directory you will also find the full first name and last name of each user.
+Keep in mind that what's being displayed is the "username", which is a combination of the first letter of the first name and the full last name (e.g. Adam Smith will have the username of "asmith"), if you check the profile associated with those usernames in Active Directory you will also find the full first name and last name of each user.
 <br />
 <br />
 
