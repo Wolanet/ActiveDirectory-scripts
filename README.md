@@ -22,7 +22,7 @@ This script will also get and display the name of the printers (if any) and let 
 
 - <b>Windows 10/11, Windows Server 2022</b>
 
-<h2>Screenshots</h2>
+<h2>Screenshots & Guide</h2>
 
 Enter the following line to be able to run the Generate_Users script (you can change it back after):  <br />
 
@@ -43,7 +43,7 @@ Keep in mind that what's being displayed is the "username", which is a combinati
 <br />
 <br />
 
-Execution of the second script, clearing all the print jobs: <br />
+For the second script, simply execute the PowerShell file and it will clear all the print jobs: <br />
 
 ![Sample image](images/PShellscript4.png)
 <br />
