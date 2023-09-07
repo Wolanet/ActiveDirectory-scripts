@@ -1,5 +1,5 @@
 <h1>🧱 PowerShell scripts for AD environment</h1>
-Blog post for a more detailed walk-through >  (link to come)
+These scripts are fairly simple and were made to test scripting with PowerShell inside my Active Directory Homelab (link), I might update this in the future with more scripts.
 
 <h2>📙 Description</h2>
 
