@@ -24,7 +24,7 @@ This script will also get and display the name of the printers (if any) and let 
 
 <h2>Screenshots & Guide</h2>
 
-Enter the following line to be able to run the Generate_Users script (you can change it back after):  <br />
+Run Windows PowerShell ISE with admin rights and enter the following line to be able to run the Generate_Users script (you can change it back after):  <br />
 
 ![Sample image](images/PShellscript1.png)
 <br />
