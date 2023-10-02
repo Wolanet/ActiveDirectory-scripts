@@ -1,8 +1,14 @@
-<h1>🧱 PowerShell scripts for AD environment</h1>
+<h1>🧱 Powershell scripts for AD environment</h1>
 
-These scripts are fairly simple and were used to test scripting with PowerShell inside my [Active Directory Homelab](https://tektsunami.com/adhomelab.html). <br />
-I might update this repo in the future with more scripts.
+These scripts are fairly simple and were used to test scripting with Powershell inside my [Active Directory Homelab](https://tektsunami.com/adhomelab.html). You can read more about it on my website. <br />
 
+<h3>🔺 Experience gained from Homelab: </h3>
+
+- Using and Managing Windows Server and Windows 10/11 within Virtual Machines. (VMware / VirtualBox) <br />
+- Configuration of Active Directory services, DHCP, DNS, GPOs and so on. <br />
+- Basic scripting and automation with Powershell for common use cases. <br />
+
+<br />
 <h2>📙 Description</h2>
 
 Here you will find two very simple **PowerShell utility scripts**, to be used in Active Directory and Windows environment.
