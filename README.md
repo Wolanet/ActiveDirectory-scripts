@@ -1,6 +1,7 @@
 <h1>🧱 Powershell scripts for AD environment</h1>
 
 These scripts are fairly simple and were used to test scripting with Powershell inside my [Active Directory Homelab](https://tektsunami.com/adhomelab.html). You can read more about it on my website. <br />
+{ On top of the first 2 scripts, of which you can find screenshots and a short guide, additional scripts might be added over time, all tested and used in Virtual environments }
 
 <h3>🔺 Experience gained from Homelab: </h3>
 
@@ -18,12 +19,14 @@ Here you will find two very simple **PowerShell utility scripts**, to be used in
 The first line of the ```listnames.txt``` file is a placeholder for your name and surname, if you want to add yourself as the first user who gets added to AD.
 <br />
 
-*note*: in the .ps1 file (PowerShell code) there are a lot of comments explaining what the code does/how to modify it etc., feel free to ignore them or delete them.
-<br />
-<br />
-
 - The second script, ```Clear-all-printjobs.ps1```, will clear the printing queue and cancel any print jobs that might be there. It could be useful to troubleshoot issues with your printer (if the issue is software related, and not hardware related), if for example the print spooler is stuck then clearing the print job queue could fix the issue. <br />
 This script will also get and display the name of the printers (if any) and let you know if any print job has been cancelled.
+<br />
+
+- The third script, called ```info-system.ps1```, shows the system information (such as BIOS, CPU, RAM, OS Version etc.) of your local computer. It uses the <b>Windows Management Interface (WMI)</b> cmdlet: WMI is a popular management interface that can access data of a given computer. However, WMI is being deprecated, and PowerShell today relies heavily on PSRemoting and the security features it includes, which is why I recommend using the <b>Get-CIMInstance</b> cmdlet instead for more complex/security-related scripts.
+<br />
+
+- The fourth script, called ```windows-defender.ps1```, gives the user 3 options to pick from, all related to Windows Defender: Option 1) checks the Windows Defender status and shows the scheduled scan day, Option 2) Disables real-time protection, Option 3) Enables real-time protection. Useful in test environments where you want to quickly disable/enable Windows Defender or see its current status.
 <br />
 
 <h2>📗 Tested environments</h2>
