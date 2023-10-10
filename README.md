@@ -12,7 +12,7 @@ These scripts are fairly simple and were used to test scripting with Powershell 
 <br />
 <h2>📙 Description</h2>
 
-Here you will find two very simple **PowerShell utility scripts**, to be used in Active Directory and Windows environment.
+A brief description of the **PowerShell utility scripts** present in this repository.
 <br />
 <br />
 - The first script, ```Generate_Users.ps1```, will automatically add any number of users to the Active Directory database, by taking the list of names and surnames from the file ```listnames.txt```, and creating a folder called ```_USERS```, keep in mind that you can change the name of the folder. You will specify name and surname in the txt file of each user that you would like to add, follow the format of the examples already present in ```listnames.txt```, that is "first name" + space + "last name". <br />
