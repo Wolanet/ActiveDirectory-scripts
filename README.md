@@ -30,7 +30,7 @@ This script will also get and display the name of the printers (if any) and let 
 <br />
 
 
-<h2> Powershell CLI commands for Active Directory </h2>
+<h2>⚡ Powershell CLI commands for Active Directory </h2>
 It's also very useful to learn CLI (command-line interface) commands to quickly perform actions that are done often (possibly daily), which saves a lot of time. Here are some examples of a few useful commands: 
 <br />
 <br />
