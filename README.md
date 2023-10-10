@@ -1,4 +1,4 @@
-<h1>🧱 Powershell scripts for AD environment</h1>
+<h1>🧱 Powershell scripts for AD environment </h1>
 
 These scripts are fairly simple and were used to test scripting with Powershell inside my [Active Directory Homelab](https://tektsunami.com/adhomelab.html). You can read more about it on my website. <br />
 { On top of the first 2 scripts, of which you can find screenshots and a short guide, additional scripts might be added over time, all tested and used in Virtual environments }
@@ -10,7 +10,7 @@ These scripts are fairly simple and were used to test scripting with Powershell 
 - Basic scripting and automation with Powershell for common use cases. <br />
 
 <br />
-<h2>📙 Description</h2>
+<h2>📙 Description </h2>
 
 A brief description of the **PowerShell utility scripts** present in this repository.
 <br />
@@ -29,11 +29,43 @@ This script will also get and display the name of the printers (if any) and let 
 - The fourth script, called ```windows-defender.ps1```, gives the user 3 options to pick from, all related to Windows Defender: Option 1) checks the Windows Defender status and shows the scheduled scan day, Option 2) Disables real-time protection, Option 3) Enables real-time protection. Useful in test environments where you want to quickly disable/enable Windows Defender or see its current status.
 <br />
 
-<h2>📗 Tested environments</h2>
+
+<h2> Powershell CLI commands for Active Directory </h2>
+It's also very useful to learn CLI (command-line interface) commands to quickly perform actions that are done often (possibly daily), which saves a lot of time. Here are some examples of a few useful commands: 
+<br />
+<br />
+
+<ul>
+<li>Resets the password of a given user: 
+  
+     Set-ADAccountPassword <User> -Reset -NewPassword (Read-Host -AsSecureString -Prompt 'New Password')
+</li>
+
+<li>Checks if there are any accounts with an expired password:
+
+    Search-ADAccount -PasswordExpired
+</li>
+
+<li>Unlocks a given user account:
+
+    Unlock-ADaccount -identity "User"
+</li>
+
+<li>Extracts a list of users which are part of a given AD Group:
+  
+    Get-ADGroup <Groupname> | Get-ADGroupMember
+</li>
+</ul>
+If you learn how to operate from the CLI you can do pretty much anything and operate much faster.
+
+<br />
+<br />
+
+<h2> Tested environments </h2>
 
 - <b>Windows 10/11, Windows Server 2022</b>
 
-<h2>Screenshots & Guide</h2>
+<h2> Screenshots & Guide </h2>
 
 Run Windows PowerShell ISE with admin rights and enter the following line to be able to run the Generate_Users script (you can change it back after):  <br />
 
